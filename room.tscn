@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://bvx8083nj5so8"]
+
+[ext_resource type="Texture2D" uid="uid://doxhqlep25o1" path="res://icon.svg" id="1_88gup"]
+
+[node name="Node2D" type="Node2D" unique_id=2012407102]
+position = Vector2(-7, 13)
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=144015721]
+position = Vector2(689.00006, 246)
+rotation = -2.2444935
+skew = -0.61086524
+texture = ExtResource("1_88gup")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1907326174]
+position = Vector2(518, 335)
