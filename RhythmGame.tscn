@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://bs1qrbxphpbfq"]
+
+[node name="RhythmGame" type="Control" unique_id=2063963360]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="." unique_id=2015170009]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 0.2
+grow_horizontal = 2
+
+[node name="Ring" type="TextureRect" parent="HBoxContainer" unique_id=172499790]
+layout_mode = 2

@@ -1,15 +1,42 @@
-[gd_scene format=3 uid="uid://bvx8083nj5so8"]
+[gd_scene format=3 uid="uid://3dt8f5rdt4ra"]
 
 [ext_resource type="Texture2D" uid="uid://doxhqlep25o1" path="res://icon.svg" id="1_88gup"]
+[ext_resource type="Script" uid="uid://b8ho5eid1v853" path="res://mask_input.gd" id="2_bisa2"]
 
 [node name="Node2D" type="Node2D" unique_id=2012407102]
-position = Vector2(-7, 13)
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=144015721]
-position = Vector2(689.00006, 246)
+position = Vector2(573.58, 301.86398)
 rotation = -2.2444935
+scale = Vector2(1.1850395, 1.2749496)
 skew = -0.61086524
 texture = ExtResource("1_88gup")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1907326174]
-position = Vector2(518, 335)
+position = Vector2(577, 325)
+
+[node name="Node2D" type="Node2D" parent="." unique_id=947011144]
+position = Vector2(223, 244)
+script = ExtResource("2_bisa2")
+
+[node name="mask1" type="Sprite2D" parent="Node2D" unique_id=262280217]
+position = Vector2(0, -100)
+scale = Vector2(0.75, 0.75)
+texture = ExtResource("1_88gup")
+metadata/mask1used = false
+metadata/mask1 = ""
+
+[node name="mask2" type="Sprite2D" parent="Node2D" unique_id=1738802939]
+position = Vector2(100, 0)
+scale = Vector2(0.75, 0.75)
+texture = ExtResource("1_88gup")
+
+[node name="mask3" type="Sprite2D" parent="Node2D" unique_id=1941199139]
+position = Vector2(0, 100)
+scale = Vector2(0.75, 0.75)
+texture = ExtResource("1_88gup")
+
+[node name="mask4" type="Sprite2D" parent="Node2D" unique_id=18887096]
+position = Vector2(-100, 0)
+scale = Vector2(0.75, 0.75)
+texture = ExtResource("1_88gup")
